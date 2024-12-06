@@ -218,6 +218,18 @@
                 </div>
             </div>
         </footer>
+        <!-- ChatBot -->
+        <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/1.0.0-beta.4/libs/oversea/index.js"></script>
+        <script>
+            new CozeWebSDK.WebChatClient({
+              config: {
+                bot_id: '7445127391901089848',
+              },
+              componentProps: {
+                title: 'Coze',
+              },
+            });
+        </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
