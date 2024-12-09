@@ -141,7 +141,31 @@ a.btn.cl-btn-primary {
 .cl-bg-experience {
   background-color: #F4EFE6;
 }
+.card.cl-cardproject {
+  background: #6868;
+}
+.cl-link {
+  background: ivory;
+  width: fit-content;
+  border-radius: 10px;
+}
+.cl-link:hover {
+  box-shadow: 0 1px 1rem #000000ad !important;
+}
+.cl-group {
+  padding: 20px;
+}
 @media (max-width: 768px) {
+  .cl-description {
+    display: -webkit-box; /* Flexbox-based layout for text clamping */
+    -webkit-line-clamp: 3; /* Show only 3 lines */
+    -webkit-box-orient: vertical; /* Set the box orientation to vertical */
+    overflow: hidden; /* Hide the overflow text */
+    text-overflow: ellipsis; /* Add "..." to indicate truncation */
+  }
+  .cl-group {
+    padding: 20px;
+  }
   .cl-exp-mobile {
     display: flex;
     flex-direction: column;
