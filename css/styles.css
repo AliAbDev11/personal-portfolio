@@ -141,6 +141,15 @@ a.btn.cl-btn-primary {
 .cl-bg-experience {
   background-color: #F4EFE6;
 }
+@media (max-width: 768px) {
+  .cl-exp-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .cl-resume {
+    margin-top: 15px;
+  }
+}
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
