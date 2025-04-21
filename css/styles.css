@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2024 Start Bootstrap
+* Copyright 2013-2025 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
 */
 /*!
@@ -147,10 +147,23 @@ a.btn.cl-btn-primary {
 .cl-link {
   background: ivory;
   width: fit-content;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .cl-link:hover {
-  box-shadow: 0 1px 1rem #000000ad !important;
+  box-shadow: 0 1px 1rem wheat !important;
+}
+a.text-link {
+  text-decoration: none;
+  color: #b2852b;
+  font-weight: 700;
+}
+a.text-link:hover {
+  color: #055160;
+}
+.dropdown-item.active, .dropdown-item:active{
+  color: var(--bs-dropdown-link-active-color);
+    text-decoration: none;
+    background-color: var(--bs-dropdown-link-active-bg);
 }
 .cl-group {
   padding: 20px;
